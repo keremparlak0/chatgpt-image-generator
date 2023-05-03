@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    color: brown;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+#icon {
+    width: 20px;
+    margin-bottom: -5px;
+}
+
+.images-section {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+margin-bottom: 20px;
+}
+
+img {
+    width: 150px;
+}
